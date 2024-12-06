@@ -44,14 +44,18 @@ Visit the [Installation Guide](https://github.com/Hintzelab/MABE/wiki/Installati
       To run different configurations changes can be made to `work/mq_conditions.txt`
 
 4. when run, a directory will be created for the condition being run (for each task, we only used one condition).
-  for edlunds maze this directory will be: C0__CBU_0__SX_10__SZ_10__NRV_0
-  for nback this directory will be:
-  within this directory you will find a directory for each replicat run labeled with the random seed used for that replicat
-  The data files within each replicate data should be:
+
+	for edlunds maze this directory will be: C0__CBU_0__SX_10__SZ_10__NRV_0=
+	for nback this directory will be:
+
+	within this directory you will find a directory for each replicat run labeled with the random seed used for that replicat
+
+The data files within each replicate data should be:
+
       max.csv: statistics for the individual in the population with the max score; recorded every 10 generations
-	  pop.csv: average statistics for all individual in the population; recorded every 10 generations
-	  snapshot_data_\*.csv: statistics for all organisms; recoded every 1000 generations
-	  snapshot_organisms_\*.csv: genomic data for all organisms; recoded every 1000 generations
+      pop.csv: average statistics for all individual in the population; recorded every 10 generations
+      snapshot_data_\*.csv: statistics for all organisms; recoded every 1000 generations
+      snapshot_organisms_\*.csv: genomic data for all organisms; recoded every 1000 generations
 	  
 # Collecting information theory data
 
