@@ -12,7 +12,7 @@ Results are shown for all perfect performers generated during experiments.
 
 # MABE Installation Guide
 
-## Step 1: Ensure Required Components (you do not need to install MABE yet)
+## Step 1: Ensure Required Components (you need to do this before you can compile and run MABE)
 
 Visit the [Installation Guide](https://github.com/Hintzelab/MABE/wiki/Installation-and-getting-started-with-MABE) to check required software:
 - C++17 Compiler
