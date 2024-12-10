@@ -2,6 +2,14 @@ This repository contains replication instructions for and additional results fro
 
 This work was run using the MABE (Modular Agent Based Evolver) framework. The two evolutionary envientments disscussed in the paper are included with the included MABE code (in code/Worlds).
 
+# Additional Data
+Additional data can be found in "ADDITIONAL_DATA". Image files as well as snapshot files that can be used to run analysis are avalible, organized by task (endlunds/nback) and replicate number (see "Replicating results" below for replication instructions).
+Results are shown for all perfect performers generated during experiments.
+
+
+
+# Replicating results
+
 # MABE Installation Guide
 
 ## Step 1: Ensure Required Components (you do not need to install MABE yet)
@@ -28,7 +36,7 @@ Visit the [Installation Guide](https://github.com/Hintzelab/MABE/wiki/Installati
 2. Run MABE using:
 	./mabe (or ./mabe.exe) if on windows
 	
-# Running experiments.
+# Running experiments
 
 1. once you have a working MABE executable, cp the exactuable to either RUN_FILES/edlunds_5/. or RUN_FILES/nback_2/.
 2. cd into the run directory you just placed MABE into
@@ -61,7 +69,7 @@ The data files within each replicate data should be:
 after completing a run
 
 
-1. finally, in order to generate visualizations, you need to switch over to the ANALYSIS directory
+1. in order to generate visualizations, you need to switch over to the ANALYSIS directory
 		for edlunds: cd ../../ANALYSIS/edlunds
 		for nback:   cd ../../ANALYSIS/nback
 
@@ -69,6 +77,12 @@ after completing a run
 	these files should be renamed snapshot_data.csv and snapshot_organisms.csv
 
 3. finally, run: sh run_commands.sh
+      	this will first run mabe in visualize mode which will load the snapshot data and generate data related to the highest scoring agent in the population at the time of that snapshot. This make take a minute.
+   	next the visualization code will be called.
+   	you may need to install graphviz, details can be found here: https://graphviz.org/
+
+4. cd to images/101 to see the final rendered images
+5. you can change 101 to a different number in "run_commands.sh" in order to have final images sent to a different directory (the indention is to use the replicat number from the expiment).
 
 
 
