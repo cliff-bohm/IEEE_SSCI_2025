@@ -1,0 +1,35 @@
+% World
+  + Logic16
+  + NBack
+  + BlockCatch
+  * Test
+  + PathFollow
+  - TPM_GENERATOR
+  + Berry
+
+% Genome
+  * Circular
+  - Multi
+
+% Archivist
+  - SSwD
+  + LODwAP
+
+% Brain
+  * WireCube
+  - Wire
+  + CGP
+  - Markov
+  - LSTM
+  + BiLog
+  - ANN
+  - RNN
+  - Human
+  - ConstantValues
+
+% Optimizer
+  - Islands
+  - Lexicase
+  - Roulette
+  * Tournament
+
