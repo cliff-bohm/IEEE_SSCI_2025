@@ -57,9 +57,20 @@ The data files within each replicate data should be:
       snapshot_data_\*.csv: statistics for all organisms; recoded every 1000 generations
       snapshot_organisms_\*.csv: genomic data for all organisms; recoded every 1000 generations
 	  
-# Collecting information theory data
+# processing information theory data
+after completing a run
 
-1. after completing a run
+
+1. finally, in order to generate visualizations, you need to switch over to the ANALYSIS directory
+		for edlunds: cd ../../ANALYSIS/edlunds
+		for nback:   cd ../../ANALYSIS/nback
+
+ 2. next you need to copy a snapshot_data_\*.csv and snapshot_organisms_\*.csv file to this directory
+	these files should be renamed snapshot_data.csv and snapshot_organisms.csv
+
+3. finally, run: sh run_commands.sh
+
+
 
 ## Useful Links
 
