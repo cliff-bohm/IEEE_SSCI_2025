@@ -22,7 +22,7 @@ Visit the [Installation Guide](https://github.com/Hintzelab/MABE/wiki/Installati
 ## Step 2: Build MABE
 
 1. Download this repository.
-2. Navigate to the top-level directory.
+2. Navigate to the MABE_CODE directory.
 3. Run `sh tools/setup.cmd` to set up mbuild.
 4. Run `./mbuild` (or `./mbuild.exe` for Windows).
 5. The executable will be placed in the `work/` directory.
