@@ -38,7 +38,7 @@ Visit the [Installation Guide](https://github.com/Hintzelab/MABE/wiki/Installati
 	
 # Running experiments
 
-1. once you have a working MABE executable, cp the exactuable to either RUN_FILES/edlunds_5/. or RUN_FILES/nback_2/.
+1. once you have a working MABE executable, cp the exactuable to either RUN_FILES/edlunds/. or RUN_FILES/nback/.
 2. cd into the run directory you just placed MABE into
 3. Execute MABE using:
     ```sh
